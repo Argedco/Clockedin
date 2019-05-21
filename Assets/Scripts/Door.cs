@@ -30,9 +30,6 @@ public class Door : MonoBehaviour {
         {
             // We DID hit the player!
 
-            // Save the score using our score object reference
-            scoreObject.SaveScore();
-
             // Load the next level
             SceneManager.LoadScene(sceneToLoad);
         }

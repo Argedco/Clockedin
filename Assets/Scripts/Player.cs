@@ -50,8 +50,7 @@ public class Player : MonoBehaviour
         //give the velocity to our rigid body
         physicsBody.velocity = velocity;
 
-        //Tell the animator our speed
-        PlayerAnimator.SetFloat("speed", Mathf.Abs(leftRight));
+        
 
         //Flip our sprite if we're moving backward
         if (velocity.x < 0)
