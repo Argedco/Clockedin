@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Forest.unity
     guid: ff7b6b40701340b4995e17efe1aca25c
+  - enabled: 1
+    path: Assets/Scenes/Sewers.unity
+    guid: 935cb7ad47810b94d910424c8fe99c08
   m_configObjects: {}

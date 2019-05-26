@@ -19,7 +19,7 @@ public class StartButton : MonoBehaviour {
 
 
         // Load the first level
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene("Factory");
     }
 
 }
